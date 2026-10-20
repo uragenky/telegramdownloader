@@ -1,0 +1,24 @@
+node_modules/
+.env
+.env*.local
+!.env.example
+downloads/*
+!downloads/.gitkeep
+dist/
+build/
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Session and Database files (sensitive credentials & local data)
+sessions/
+backend/sessions/
+*.json.bak
+*.db
+*.db-journal
+*.sqlite
+database.db
+cache/
+backup
+backup/
